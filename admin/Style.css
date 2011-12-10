@@ -1,0 +1,170 @@
+﻿BODY {
+	font-family:Arial, Helvetica, sans-serif;
+	SCROLLBAR-FACE-COLOR: #d8e3e9; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-SHADOW-COLOR: #c1c6cc; 
+	SCROLLBAR-3DLIGHT-COLOR: #abb1b3; 
+	SCROLLBAR-ARROW-COLOR: #a696d4; 
+	SCROLLBAR-TRACK-COLOR: #c9d3d9; 
+	SCROLLBAR-DARKSHADOW-COLOR: #abb1b3;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #005493;
+	background-image: url(images/background.jpg);
+	background-repeat: repeat-y;
+	background-position:center;
+}
+
+label{ display:block; }
+form { background-color:#FFF; padding:15px}
+.style1 {color: #FFFFFF}
+.recuadro {
+	border: 1px solid #CCCCCC;
+}
+
+.tabla th
+{
+
+	font: bold 11px "Trebuchet MS" , Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px 6px 6px 12px;
+	background: #CAE8EA url(images/bg_header.jpg) no-repeat;
+
+}
+
+.tabla td {
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	
+	padding: 6px 6px 6px 12px;
+	color: #4f6b72;
+}
+
+
+.tabla td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+
+.cuadrito {
+	border: 1px solid #CCCCCC;
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.botoncito {
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	border-left: 1px solid #CCCCCC;
+	background-color: #ccdbe9;
+}
+.textfieldform {
+	border: 1px solid #CCCCCC;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.criteriobuscar {
+	border: 1px solid #CCCCCC;
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.textver {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+.neostyle {
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.neostyletitle {
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	font-weight: bold;
+	color: #005493;
+	text-decoration: none;
+}
+.link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #005493;
+	text-decoration: none;
+}
+a.linkis {
+	display:block;
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #005493;
+	text-decoration: none;
+	border: 0 px;
+}
+a.linkis:hover {
+	background-color: #005493;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	border: 0 px;
+}
+a.linkis:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #7fa4c9;
+	border: 0 px;
+}
+.lineamenu {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #005493;
+	background-position: 5px;
+}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+*,html,body { font-family: Arial, Helvetica, sans-serif; font-size:10px; }
+html,body {margin:0; padding:0; background-color:#003; }
+label{ display:block; font-weight:bold; }
+form {background-color:#FFF; padding:0px; display:block;}
+form a { text-decoration:none;}
+form a:hover{ text-decoration:underline }
+.form_subtext { font-style:italic; font-weight:bold; color:#C00; display:block;}
+
+.clearfix { clear:both; }
+.cancelar { color:#C00; font-weight:bold; background-color:#FCF; padding:3px; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; }
+.table_title { background-color:#656565; color:#FFF; font-weight:bold; }
+h2{ background-color:#003; color:#FFF; padding:4px; margin:0px; width:100%}
+h2 a { color: #505050; text-decoration: none; background: #efefef; padding: 3px; border: 1px solid #efefef;}
+h2 a img { vertical-align: middle; }
+h2 a:hover { background-color:#ffffff; border-color: #f0f0f0; color: black; text-decoration: none}
+
+#contenedor{
+	width:960px;
+	margin:0 auto;
+	padding:0px;
+	background-color:#FFF;
+	}
+#header { background-color:#006; margin:0px; padding:5px; min-height:20px; font-weight:bold; font-size:12px; color:#FFF }
+#cuerpo { margin:0px; padding:0px; font-size:10px;}
+	#barra_i{ float:left; width:170px; min-height:140px; background-color:#fcfcfc; border-right: solid 1px #eee }
+		#menu{ padding:5px }
+			#menu h4 { margin:0px 0px 5px 0px; padding:5px 3px 5px 20px; background-color:#39C; background-image:url(../admin/images/user.png); background-repeat:no-repeat; background-position: left; color:#FFF }
+			#menu h4 img{ float:right }
+			#menu ul{ list-style:none; padding:0px; margin:0px; margin-bottom:10px}
+			#menu ul li{ margin:2px 0px 0px 0px; background-color:#ddd; }
+			#menu ul li a{ padding:5px; display:block; text-decoration:none; color:#333; font-weight:bold }
+			#menu ul li a:hover{ padding:5px; background-color:#FF9; text-decoration:underline; }
+			#menu ul li ul { margin: 0px; margin-bottom:5px }
+			#menu ul li ul li { margin-top:-2px }
+			#menu ul li ul li a{ padding-left: 15px; background-color:#f0f0f0; }
+			#menu ul li ul li a:hover{ padding-left: 15px; background-color:#FF9; text-decoration:underline; }
+	#barra_l{ float:left }
+		#contenido{ padding:5px; width:770px;}
+#footer{}
+
+#message { background-color:#FFC; border:1px #FF9 solid; text-align:center; padding:10px; font-weight:bold; background-image:url(../admin/images/error.png); background-position:right; background-repeat:no-repeat; }

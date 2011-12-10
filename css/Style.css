@@ -1,0 +1,238 @@
+﻿*, body, html, img, td, tr, table, ul, li, a {
+	margin: 0px;
+	padding:0px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif
+	}
+body, html
+{
+	background-color: #a8c50b;
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+}
+
+#container{ width:960px; margin:0 auto }
+#menuPrincipal { text-align:left; }
+#menuPrincipal ul { list-style:none; padding:0; line-height:25px }
+#menuPrincipal ul li { margin:0 0 -3px 0; padding:0px;}
+#menuPrincipal ul li a{ background-image:url(../images/menu_turismo.jpg); background-repeat:no-repeat; background-position:top left; display:block; width:195px; color:#FFF; font-weight:bold; text-decoration:none; padding: 3px 10px 0px 10px}
+#menuPrincipal ul li a:hover{ background-image:url(../images/menu_turismo_2.jpg); background-repeat:no-repeat; background-position:top left; text-decoration:underline }
+
+.fondofooter
+{
+    background-color: #ffc000;
+    font-size: 11px;
+    color: White;
+}
+
+
+.fondomenu
+{
+    background-color: #336001;
+    font-size: 11px;  
+    color: White;
+}
+.fondouser
+{
+    background-image: url(../images/turismoenlinea_02.jpg);
+    height:64px;
+    width:481px;
+}
+.style1
+{
+	color: #FFFFFF;
+}
+.recuadro
+{
+	border: 1px solid #CCCCCC;
+}
+.tabla th
+{
+
+	font: bold 11px;
+	color: #4f6b72;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px 6px 6px 12px;
+	background: #CAE8EA url(../images/bg_header.jpg) no-repeat;
+
+}
+
+.tabla td {
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	
+	padding: 6px 6px 6px 12px;
+	color: #4f6b72;
+}
+
+
+.tabla td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+
+.cuadrito
+{
+	border: 1px solid #CCCCCC;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.botoncito
+{
+	font-size: 13px;
+	font-weight: bold;
+  letter-spacing:2px;
+  padding: 2px 3px;
+	color: #030;
+	border:solid 2px #8FA709;
+	text-decoration: none;
+	background-color: #a8c50b;
+}
+.textfieldform
+{
+	border: 1px solid #CCCCCC;
+	font-size: 10px;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.criteriobuscar
+{
+	border: 1px solid #CCCCCC;
+	font-size: 12px;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.text
+{
+	font-size: 11px;
+}
+.textver
+{
+	font-size: 10px;
+	color: #333333;
+}
+.neostyle
+{
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.neostyletitle
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: #005493;
+	text-decoration: none;
+}
+.link
+{
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;	
+	text-decoration: none;
+	border: 0 px;
+}
+a.linkis
+{
+	display: none;
+	width: auto;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-decoration: none;
+	border: 0 px;
+}
+a.linkis:hover
+{
+	background-color: #005493;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;	
+	text-decoration: none;
+	border: 0 px;
+}
+a.linkis:active
+{
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;	
+	text-decoration: none;	
+	border: 0 px;
+}
+.lineamenu
+{
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #005493;
+	background-position: 5px;
+}
+
+label{ font-weight:bold;}
+/* Estilos de Busqueda */
+.searchHeader {
+	background-color:#060;
+	color:#FFF;
+	font-weight:bold;
+}
+.searchHeader a{
+	color:#FFF;
+	text-decoration:none;
+}
+.searchHeader a:hover{
+	text-decoration:underline;
+}
+
+.searchEven {
+	background-color:#FFF;
+}
+.searchUneven{
+	background-color:#FFC
+}
+.clearfix { clear:both}
+.error { background-color:#FCC; border:#C00; color:#900; text-align:center; padding:5px; margin:0 auto;}
+/* Estilos de los mapas */
+#sitiosInteres { }
+	#sitiosInteres h2{ border-bottom:2px solid #090; margin-bottom:5px }
+/* Estilos del Detalle de una busqueda */
+#tituloDisplay { font-size:22px; font-weight:bold; background-color:#CCC; color:#000; padding:5px; margin-bottom:5px}
+#galleryDisplayShowcase{ margin-bottom:5px; height:580px;}
+#search { float:right; margin-top:14px; margin-right:3px}
+#search_2 { float:right; margin-top:0px; margin-right:3px}
+#galleryDisplay{ margin:0 auto; margin-bottom:5px;}
+.title_image { background-color:#000; color:#FFF; font-weight:bold; padding:3px; background-image:url(../images/detail_image.jpg); background-repeat:no-repeat; background-position:top left; font-size:20px }
+.detail_image { background-color:#000; color:#FFF; font-weight:bold; padding:3px; background-image:url(../images/detail_image.jpg); background-repeat:no-repeat; background-position:top left; }
+#infoDisplay{ margin:0 auto; width:95%; padding:10px; margin-bottom:5px }
+	#infoDisplay h2{ border-bottom:2px solid #090; margin-bottom:5px }
+	#infoDisplay ul{ list-style:none; padding:0px; margin:0px }
+	#infoDisplay ul li{ margin:0px  }
+#mapDisplay{ width:95%; margin:0 auto; min-height:400px; margin-bottom:5px}
+	#mapDisplay h2{ border-bottom:2px solid #090; margin-bottom:5px }
+
+#facilidadesDisplay { width:95%; margin:0 auto; padding:10px; margin-bottom:15px;}
+	#facilidadesDisplay h2{ border-bottom:2px solid #090; margin-bottom:5px }
+	#facilidadesDisplay ul { list-style:none; padding:0px; margin:0px 20px 0px 0px; float:left}
+	
+.paginate_pagenumber{ display: inline; margin:3px; border:#CCC solid 1px; clear:both}
+.paginate_pagenumber_selected { display: inline; margin:3px; border:#030 solid 1px; clear:both; background-color:#030;}
+.paginate_pagenumber a{ padding:3px 10px; text-decoration:none; color:#060; font-weight:bold }
+.paginate_pagenumber_selected  a{ padding:3px 10px; text-decoration:none; color:#fff; font-weight:bold }
+
+.alerta { background-color:#FF9; border:1px solid #FF6; color:#630; padding:10px; text-align:center; font-size:14px; font-weight:bold}
